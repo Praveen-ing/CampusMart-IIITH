@@ -5,6 +5,9 @@ A full-stack web application designed for the IIIT Hyderabad community to buy an
 ## 🌐 Live Demo
 **Website**: [https://campusmart-iiith-1.onrender.com](https://campusmart-iiith-1.onrender.com)
 
+**N Praveen**
+- Student, B.Tech in Electronics and Communication Engineering (ECE)
+- International Institute of Information Technology, Hyderabad (IIITH)
 
 ## Description
 
@@ -75,9 +78,7 @@ The application implements secure authentication using JWT tokens and bcrypt pas
 
 ## Author
 
-**N Praveen**
-- Student, B.Tech in Electronics and Communication Engineering (ECE)
-- International Institute of Information Technology, Hyderabad (IIITH)
+
 
 ## Project structure
   ```bash
