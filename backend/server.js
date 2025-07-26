@@ -30,10 +30,14 @@ app.use("/api/users", userRoutes);
 app.use("/api/items", itemRoutes);
 app.use("/api/orders", orderRoutes);
 
+// --- CORRECTED DEPLOYMENT CODE ---
 if(process.env.NODE_ENV === "production") {
-    app.use(express.static(path.join(__dirname, "../frontend/dist")));
+    // Serve static files from the 'dist' folder inside the 'frontend' folder
+    app.use(express.static(path.join(__dirname, "frontend", "dist")));
+    
+    // For any other request, send the index.html file
     app.get("*", (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../frontend","dist", "index.html"));
+        res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
     });
 }
 
