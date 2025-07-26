@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+@layer components {
+  
+  .input-box {
+    @apply w-full text-base bg-transparent border-[1.5px] px-5 py-3 border-gray-300 bg-white rounded-lg mb-4 focus:outline-none focus:border-blue-500;
+  }
+  .btn-primary {
+    @apply w-full text-base bg-orange-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-200 focus:outline-none;
+  }
+
+  .menu-item {
+    @apply text-lg font-medium text-orange-400 cursor-pointer hover:text-green-500; 
+  }
+}
