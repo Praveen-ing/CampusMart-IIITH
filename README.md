@@ -80,6 +80,7 @@ The application implements secure authentication using JWT tokens and bcrypt pas
 - International Institute of Information Technology, Hyderabad (IIITH)
 
 ## Project Structure
+
 CampusMart-IIITH/
 ├── frontend/                 # React frontend application
 │   ├── src/
@@ -95,6 +96,7 @@ CampusMart-IIITH/
 │   ├── middleware/           # Custom middleware
 │   └── config/               # Configuration files
 └── README.md
+
 
 
 ## Installation Guide for Development Mode
