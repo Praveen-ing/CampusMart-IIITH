@@ -79,8 +79,8 @@ The application implements secure authentication using JWT tokens and bcrypt pas
 - Student, B.Tech in Electronics and Communication Engineering (ECE)
 - International Institute of Information Technology, Hyderabad (IIITH)
 
-- 
-
+## Project structure
+  ```bash
 CampusMart-IIITH/
 ├── frontend/                 # React frontend application
 │   ├── src/
@@ -97,7 +97,7 @@ CampusMart-IIITH/
 │   └── config/               # Configuration files
 └── README.md
 
-
+```
 
 ## Installation Guide for Development Mode
 
